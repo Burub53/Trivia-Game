@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="style" defer>
+    <link href="style.css" rel="stylesheet">
     <script src="app.js" defer></script>
 </head>
 <body>
-    <div class = "container">
+    <div class = "container2">
         <div id="home" class="flex-center flex-column"> 
             <h3 id="theQuestion">This is the question!</h3>
             <div class="guessContainer">
@@ -18,7 +18,9 @@
                 <p class="theGuesses" data-number="3"></p>
                 <p class="theGuesses" data-number="4"></p>
             </div>
-            <button class="next">Next Question</button>
+            <button class="next">Next</button>
+            <button class = ".refresh" onClick = "window.location.reload()">Restart</button>
+    <!-- <button class=“resetButton”>resetButton</button> -->
         </div>
     </div>
 </body>

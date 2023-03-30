@@ -1,14 +1,52 @@
-:root {
-    background-color: blue;
-    font-size: 80px;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: black;
+    background-color: #f5f5dc;
+    
+}
+
+.container2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 80 rem;
+    margin: 0 auto;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1{
+    font-size: 6 rem;
+}
+
+.theGuesses {
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(255, 230, 187);
+}
+
+body {
+    text-align: center;
+    box-sizing: border-box;
 
 }
 
-
+.playButton {
+    font-size: 5 rem;
+    background-color: rgb(255, 230, 187);
+}
+.class{
+    margin-top: 1rem;
+}

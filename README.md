@@ -2,7 +2,7 @@
 Welcome to the New York Trivia game! This is a game of questions about New York Ya heard! 
 
 ## Getting Started
-You can start this game by visiting https://byrondb.github.io/
+You can start this game by visiting https://Burub53.github.io/Trivia-Game/
 
 ## Base Features
 This is a game where you answer the questions to the best of your knoledge and if you fail then maybe consider moving but if you pass then you're welcomed to stay!
